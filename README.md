@@ -1,4 +1,4 @@
-# Do ResNets Route? Sparse Interaction Experts in Residual Networks
+<h1 align="center">Do ResNets Route? Sparse Interaction Experts in Residual Networks</h1>
 
 <p align="center">
   <strong>Liang Yan<sup>1,*</sup></strong>&nbsp;&nbsp;
