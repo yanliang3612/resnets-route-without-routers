@@ -7,6 +7,10 @@ are used only as analytical interventions.  Boolean Möbius inversion then
 decomposes the masked response exactly into individual residual corrections and
 higher-order interactions.
 
+## News
+
+- **2026-09-26:** Code released.
+
 The release is organized around the paper's six observations.  Directory names
 describe the scientific question rather than an experiment number.
 
