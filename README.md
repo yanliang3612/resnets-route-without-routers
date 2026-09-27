@@ -16,6 +16,12 @@
   <a href="mailto:yanliangfdu@gmail.com">yanliangfdu@gmail.com</a>
 </p>
 
+<p align="center">
+  <a href="https://divinyan.com/resnets-route-without-routers">
+    <img src="https://img.shields.io/badge/Project-Page-4285F4?style=flat-square" alt="Project Page">
+  </a>
+</p>
+
 This repository contains the evaluation code and numerical tables for studying
 **implicit functional routing** in pretrained residual networks.  A standard
 ResNet executes every block for every input; here, binary residual-branch masks
