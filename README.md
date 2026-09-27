@@ -1,5 +1,21 @@
 # Do ResNets Route? Sparse Interaction Experts in Residual Networks
 
+<p align="center">
+  <strong>Liang Yan<sup>1,*</sup></strong>&nbsp;&nbsp;
+  <strong>Siying Chen<sup>2</sup></strong>&nbsp;&nbsp;
+  <strong>Kaijie Chen<sup>3</sup></strong>&nbsp;&nbsp;
+  <strong>Bo Li<sup>1</sup></strong>&nbsp;&nbsp;
+  <strong>Jinghao Zhang<sup>4</sup></strong>&nbsp;&nbsp;
+  <strong>Mu Miao<sup>5</sup></strong><br>
+  <sup>1</sup>Fudan University&nbsp;&nbsp;
+  <sup>2</sup>University of Washington&nbsp;&nbsp;
+  <sup>3</sup>Tongji University<br>
+  <sup>4</sup>Shandong University&nbsp;&nbsp;
+  <sup>5</sup>Datacanvas<br>
+  <sup>*</sup>Corresponding author:
+  <a href="mailto:yanliangfdu@gmail.com">yanliangfdu@gmail.com</a>
+</p>
+
 This repository contains the evaluation code and numerical tables for studying
 **implicit functional routing** in pretrained residual networks.  A standard
 ResNet executes every block for every input; here, binary residual-branch masks
