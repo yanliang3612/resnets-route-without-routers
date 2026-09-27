@@ -7,12 +7,16 @@ are used only as analytical interventions.  Boolean Möbius inversion then
 decomposes the masked response exactly into individual residual corrections and
 higher-order interactions.
 
+---
+
 ## News
 
 - **2026-09-26:** Code released.
 
 The release is organized around the paper's six observations.  Directory names
 describe the scientific question rather than an experiment number.
+
+---
 
 ## Repository layout
 
@@ -50,6 +54,8 @@ repository releases the numerical evaluation pipeline and tabular evidence;
 users may visualize the committed tables or regenerated machine-readable
 outputs with their own tools.
 
+---
+
 ## Findings at a glance
 
 | Analysis | Main finding |
@@ -60,6 +66,8 @@ outputs with their own tools.
 | Top-K reconstruction | Coefficient mass is concentrated, while prediction-preserving reconstruction retains a decision-relevant tail, especially in ResNet-34. |
 | Input-dependent expert sets | Dominant interactions combine a shared global core with input-dependent and predicted-class structure. |
 | Difficulty and complexity | Interaction complexity changes little with sample difficulty; inputs change *which* interactions dominate more than *how much* interaction machinery is used. |
+
+---
 
 ## Installation
 
@@ -88,6 +96,8 @@ For a quick end-to-end check without ImageNet, run any experiment's
 `smoke_test.sh`.  Synthetic runs verify execution only and do not reproduce the
 paper's numbers.
 
+---
+
 ## ImageNet data
 
 ImageNet images are not redistributed.  The evaluators read Hugging Face-style
@@ -102,6 +112,8 @@ The runners accept `--parquet-dir "$IMAGENET_PARQUET_DIR"` and remap the shard
 basenames stored in the index files to that directory.  See
 [`data/README.md`](data/README.md) for expected shard patterns, selection
 protocols, and instructions for creating a new index.
+
+---
 
 ## Reproducing the six analyses
 
@@ -118,6 +130,8 @@ streaming implementation with checkpoints; use `--resume` when supported and
 write generated artifacts under `runs/` rather than overwriting the committed
 reference tables.
 
+---
+
 ## Results and reproducibility boundary
 
 The Markdown tables under each `results/` directory are immutable snapshots of
@@ -126,6 +140,8 @@ Large per-image tensors, model checkpoints, ImageNet data, run logs, cached
 activations, and visualization artifacts are intentionally omitted.  A fresh
 run writes its own summaries and per-image intermediates to the chosen
 `--output-dir`.
+
+---
 
 ## License
 
