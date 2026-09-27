@@ -1,6 +1,12 @@
 <h1 align="center">Do ResNets Route? Sparse Interaction Experts in Residual Networks</h1>
 
 <p align="center">
+  <a href="https://divinyan.com/resnets-route-without-routers">
+    <img src="https://img.shields.io/badge/Project-Page-4285F4?style=flat-square" alt="Project Page">
+  </a>
+</p>
+
+<p align="center">
   <strong>Liang Yan<sup>1,*</sup></strong>&nbsp;&nbsp;
   <strong>Siying Chen<sup>2</sup></strong>&nbsp;&nbsp;
   <strong>Kaijie Chen<sup>3</sup></strong>&nbsp;&nbsp;
@@ -14,12 +20,6 @@
   <sup>5</sup>Datacanvas<br>
   <sup>*</sup>Corresponding author:
   <a href="mailto:yanliangfdu@gmail.com">yanliangfdu@gmail.com</a>
-</p>
-
-<p align="center">
-  <a href="https://divinyan.com/resnets-route-without-routers">
-    <img src="https://img.shields.io/badge/Project-Page-4285F4?style=flat-square" alt="Project Page">
-  </a>
 </p>
 
 This repository contains the evaluation code and numerical tables for studying
