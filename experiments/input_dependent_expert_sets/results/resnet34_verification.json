@@ -1,0 +1,12 @@
+{
+  "all_metrics_finite": true,
+  "all_passed": true,
+  "expected_images": 10000,
+  "gate_count": 16,
+  "mask_count": 65536,
+  "max_abs_vector_mass_minus_one": 4.440892098500626e-16,
+  "max_chunk_all_open_abs_diff": 3.62396240234375e-05,
+  "max_mobius_reconstruction_relative_error": 0.0,
+  "num_verified_images": 10000,
+  "passed": true
+}

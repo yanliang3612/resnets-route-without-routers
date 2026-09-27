@@ -1,0 +1,107 @@
+{
+  "all_baseline_full_k_passed": true,
+  "all_chunk_all_open_top1_equal": true,
+  "all_full_reconstruction_agreement": true,
+  "all_gamma_h_monotonic": true,
+  "all_gamma_v_monotonic": true,
+  "all_metrics_finite": true,
+  "all_open_max_abs_diff": 0.0,
+  "all_open_top1_agreement": true,
+  "all_stream_full_k_passed": true,
+  "baseline_full_k": {
+    "families": {
+      "low_order": {
+        "all_agreement": true,
+        "max_abs_mass_minus_one": 4.440892098500626e-16,
+        "max_relative_error": 7.317419393171397e-14,
+        "min_cosine": 0.9999999999999994
+      },
+      "order_matched": {
+        "all_agreement": true,
+        "max_abs_mass_minus_one": 4.440892098500626e-16,
+        "max_relative_error": 0.0,
+        "min_cosine": 0.9999999999999997
+      },
+      "random": {
+        "all_agreement": true,
+        "max_abs_mass_minus_one": 4.440892098500626e-16,
+        "max_relative_error": 0.0,
+        "min_cosine": 0.9999999999999997
+      }
+    },
+    "passed": true
+  },
+  "block_count_check": true,
+  "full_reconstruction_agreement": true,
+  "full_reconstruction_cosine": 0.9999999999999997,
+  "full_reconstruction_error": 0.0,
+  "gamma_monotonic_check": true,
+  "gate_order_check": true,
+  "mask_count": 65536,
+  "mask_count_check": true,
+  "max_abs_gamma_h_final_minus_one": 1.1102230246251565e-15,
+  "max_abs_gamma_v_final_minus_one": 6.661338147750939e-16,
+  "max_chunk_all_open_abs_diff": 2.6702880859375e-05,
+  "max_full_reconstruction_relative_error": 0.0,
+  "min_full_reconstruction_cosine": 0.9999999999999997,
+  "model_all_open": {
+    "allclose_rtol_1e-5_atol_1e-6": true,
+    "gated_top1": 165,
+    "max_abs_logit_diff": 0.0,
+    "mean_abs_logit_diff": 0.0,
+    "parameter_keys_match": true,
+    "parameters_equal": true,
+    "performed": true,
+    "reference_top1": 165,
+    "top1_equal": true
+  },
+  "model_all_open_passed": true,
+  "nan_inf_check": true,
+  "num_verified_images": 500,
+  "passed": true,
+  "peak_vram_bytes": 6958181376,
+  "per_order_subset_counts": [
+    1,
+    16,
+    120,
+    560,
+    1820,
+    4368,
+    8008,
+    11440,
+    12870,
+    11440,
+    8008,
+    4368,
+    1820,
+    560,
+    120,
+    16,
+    1
+  ],
+  "residual_term_count": 65535,
+  "resume_check": {
+    "complete_count_matches_selection": true,
+    "events": [],
+    "exercised": false,
+    "no_duplicate_sample_ids": true,
+    "passed": true,
+    "required_for_this_split": false,
+    "stats_count_matches_rows": true
+  },
+  "stage_counts": [
+    3,
+    4,
+    6,
+    3
+  ],
+  "stream_full_k": {
+    "all_vector_agreement": true,
+    "max_abs_scalar_mass_minus_one": 6.661338147750939e-16,
+    "max_abs_vector_mass_minus_one": 1.1102230246251565e-15,
+    "max_scalar_relative_error": 0.0,
+    "max_vector_relative_error": 0.0,
+    "min_vector_cosine": 0.9999999999999996,
+    "passed": true
+  }
+}

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resnets-route-without-routers"
+version = "0.1.0"
+description = "Functional interaction analysis for residual networks using Mobius inversion"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Liang Yan", email = "yanliangfdu@gmail.com" },
+]
+dependencies = [
+  "torch>=2.8,<2.9",
+  "torchvision>=0.23,<0.24",
+  "numpy>=2.0,<3",
+  "scipy>=1.13,<2",
+  "pandas>=2.2,<4",
+  "pyarrow>=16,<25",
+  "Pillow>=10,<13",
+  "PyYAML>=6,<7",
+  "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2,<9",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["resnet_routes*"]
+
+[tool.pytest.ini_options]
+minversion = "8.2"
+addopts = "-ra --strict-config --strict-markers"
+testpaths = ["tests"]
+pythonpath = ["src"]

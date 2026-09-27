@@ -1,0 +1,13 @@
+{
+  "all_metrics_finite": true,
+  "all_mobius_top1_agreement": true,
+  "all_passed": true,
+  "expected_images": 1000,
+  "gate_count": 16,
+  "mask_count": 65536,
+  "max_chunk_all_open_abs_diff": 3.0517578125e-05,
+  "max_mobius_reconstruction_relative_error": 0.0,
+  "num_verified_images": 1000,
+  "passed": true,
+  "unique_sample_ids": true
+}

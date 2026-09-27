@@ -1,0 +1,11 @@
+# Runtime dependencies. The ranges match the environment used for the released
+# experiments while allowing installation on CPU-only and CUDA-enabled hosts.
+torch>=2.8,<2.9
+torchvision>=0.23,<0.24
+numpy>=2.0,<3
+scipy>=1.13,<2
+pandas>=2.2,<4
+pyarrow>=16,<25
+Pillow>=10,<13
+PyYAML>=6,<7
+tqdm>=4.66,<5

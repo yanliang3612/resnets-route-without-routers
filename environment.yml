@@ -1,0 +1,9 @@
+name: resnet-routes
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip>=24
+  - pip:
+      - -r requirements.txt
+      - -e .[dev]

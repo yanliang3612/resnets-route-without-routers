@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and package builds
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local datasets, checkpoints, and large intermediate tensors
+data/**/*.parquet
+data/**/*.tar
+data/**/*.tar.gz
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.npy
+*.npz
+
+# Recomputed experiment artifacts. Curated tables under results/ remain tracked.
+runs/
+outputs/
+generated/
+logs/
+**/generated/
+**/result_visualization/
+**/results/*.jsonl
+
+# External experiment trackers
+wandb/
+mlruns/
