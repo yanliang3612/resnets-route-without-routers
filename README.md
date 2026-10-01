@@ -36,9 +36,6 @@ decomposes the masked response exactly into individual residual corrections and
 higher-order interactions.
 
 <p align="center">
-  <img src="assets/pipeline.png" width="90%" alt="Pipeline: dense residual execution and input-dependent interaction experts" />
-</p>
-<p align="center">
   <em>From dense residual execution to input-dependent interaction experts.</em>
 </p>
 
