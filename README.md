@@ -22,6 +22,12 @@
   <a href="mailto:yanliangfdu@gmail.com">yanliangfdu@gmail.com</a>
 </p>
 
+<p align="center">
+  <a href="mailto:yanliangfdu@gmail.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&amp;weight=700&amp;size=18&amp;pause=1200&amp;color=C56A4A&amp;center=true&amp;vCenter=true&amp;width=860&amp;lines=Real-time+Q%26A+%E2%80%A2+code+contributions+%E2%80%A2+pull+requests;contact%3A+yanliangfdu%40gmail.com" alt="Real-time Q&amp;A, code contributions, pull requests, and contact" />
+  </a>
+</p>
+
 This repository contains the evaluation code and numerical tables for studying
 **implicit functional routing** in pretrained residual networks.  A standard
 ResNet executes every block for every input; here, binary residual-branch masks
@@ -29,6 +35,9 @@ are used only as analytical interventions.  Boolean Möbius inversion then
 decomposes the masked response exactly into individual residual corrections and
 higher-order interactions.
 
+<p align="center">
+  <img src="assets/animation.gif" width="100%" alt="Animated overview of implicit routing in residual networks" />
+</p>
 ---
 
 ## News
