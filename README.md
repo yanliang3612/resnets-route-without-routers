@@ -46,6 +46,9 @@ higher-order interactions.
   <em>From dense residual execution to input-dependent interaction experts.</em>
 </p>
 
+<p align="center">
+  <img src="assets/animation.gif" width="100%" alt="Animated overview of implicit routing in residual networks" />
+</p>
 ---
 
 ## News
