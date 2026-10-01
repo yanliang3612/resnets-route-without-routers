@@ -38,6 +38,14 @@ higher-order interactions.
 <p align="center">
   <img src="assets/animation.gif" width="100%" alt="Animated overview of implicit routing in residual networks" />
 </p>
+
+<p align="center">
+  <img src="assets/pipeline.png" width="90%" alt="Pipeline: dense residual execution and input-dependent interaction experts" />
+</p>
+<p align="center">
+  <em>From dense residual execution to input-dependent interaction experts.</em>
+</p>
+
 ---
 
 ## News
