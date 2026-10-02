@@ -51,7 +51,7 @@ higher-order interactions.
   <img src="assets/ResNetRoute_final_1080p.gif" width="100%" alt="Animated overview of implicit routing in residual networks" />
 </p>
 
-
+---
 
 ## News
 
