@@ -186,3 +186,18 @@ Large per-image tensors, model checkpoints, ImageNet data, run logs, cached
 activations, and visualization artifacts are intentionally omitted.  A fresh
 run writes its own summaries and per-image intermediates to the chosen
 `--output-dir`.
+
+---
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{yan2026resnetsroute,
+  title   = {Do ResNets Route? Sparse Interaction Experts in Residual Networks},
+  author  = {Yan, Liang and Chen, Siying and Chen, Kaijie and Li, Bo and Zhang, Jinghao and Miao, Mu},
+  journal = {arXiv preprint},
+  year    = {2026}
+}
+```
