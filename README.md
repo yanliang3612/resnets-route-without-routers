@@ -1,9 +1,17 @@
+<p align="center">
+  <img src="assets/logo.png" width="120" alt="Do ResNets Route? logo">
+</p>
+
 <h1 align="center">Do ResNets Route? Sparse Interaction Experts in Residual Networks</h1>
 
 <p align="center">
   <a href="https://divinyan.com/resnets-route-without-routers">
     <img src="https://img.shields.io/badge/Project-Page-4285F4?style=flat-square" alt="Project Page">
   </a>
+</p>
+
+<p align="center">
+  <img src="assets/mask_strip.svg" width="640" alt="Residual-branch masks over blocks F1–F8">
 </p>
 
 <p align="center">
