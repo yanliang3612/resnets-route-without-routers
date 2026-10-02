@@ -55,7 +55,7 @@ higher-order interactions.
 
 ## News
 
-- **2026-10-01:** Project page released at [divinyan.com/resnets-route-without-routers](https://divinyan.com/resnets-route-without-routers).
+- **2026-10-01:** Project page released at [Project Page](https://divinyan.com/resnets-route-without-routers).
 - **2026-09-26:** Code released.
 
 
