@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/mask_strip.svg" width="640" alt="Residual-branch masks over blocks F1–F8">
+  <img src="assets/mask_strip.svg" width="360" alt="Residual-branch masks over blocks F1–F8">
 </p>
 
 <p align="center">
