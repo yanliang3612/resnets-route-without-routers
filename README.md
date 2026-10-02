@@ -54,7 +54,9 @@ higher-order interactions.
 
 ## News
 
+- **2026-10-01:** Project page released at [divinyan.com/resnets-route-without-routers](https://divinyan.com/resnets-route-without-routers).
 - **2026-09-26:** Code released.
+
 
 The release is organized around the paper's six observations.  Directory names
 describe the scientific question rather than an experiment number.
