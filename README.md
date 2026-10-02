@@ -186,9 +186,3 @@ Large per-image tensors, model checkpoints, ImageNet data, run logs, cached
 activations, and visualization artifacts are intentionally omitted.  A fresh
 run writes its own summaries and per-image intermediates to the chosen
 `--output-dir`.
-
----
-
-## License
-
-See [`LICENSE`](LICENSE).
